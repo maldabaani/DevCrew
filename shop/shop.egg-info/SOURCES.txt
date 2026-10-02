@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+app/__init__.py
+app/loyalty.py
+app/order.py
+shop.egg-info/PKG-INFO
+shop.egg-info/SOURCES.txt
+shop.egg-info/dependency_links.txt
+shop.egg-info/requires.txt
+shop.egg-info/top_level.txt
+tests/test_smoke.py
