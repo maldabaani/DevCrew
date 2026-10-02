@@ -13,7 +13,7 @@ from app.loyalty import LoyaltyTier
 _TIER_DISCOUNTS: dict[LoyaltyTier, float] = {
     LoyaltyTier.BRONZE: 0.0,
     LoyaltyTier.SILVER: 0.05,
-    LoyaltyTier.GOLD: 0.10,
+    LoyaltyTier.GOLD: 0.15,
 }
 
 

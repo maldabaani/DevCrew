@@ -26,9 +26,9 @@ def test_silver_tier_five_percent_discount():
     assert order.total == 95.00
 
 
-def test_gold_tier_ten_percent_discount():
+def test_gold_tier_fifteen_percent_discount():
     order = _order_with_subtotal(LoyaltyTier.GOLD, 100)
-    assert order.total == 90.00
+    assert order.total == 85.00
 
 
 def test_tier_accepts_string_value():
@@ -38,7 +38,7 @@ def test_tier_accepts_string_value():
 
 def test_tier_accepts_string_name_uppercase():
     order = _order_with_subtotal("GOLD", 100)
-    assert order.total == 90.00
+    assert order.total == 85.00
 
 
 def test_no_loyalty_account_defaults_to_bronze():
